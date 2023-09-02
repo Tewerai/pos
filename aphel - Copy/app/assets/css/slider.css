@@ -1,0 +1,144 @@
+.Modern-Slider {
+	width: 50%;
+  }
+  .Modern-Slider .item .img-fill {
+	  background-size: cover;
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	  height:25vh;
+  }
+  
+  .Modern-Slider .item-1 .img-fill {
+	  background-image: url(../../../assets/images/one.jpg);
+  }
+  
+  @media screen and (max-width:720px){
+	  .Modern-Slider .item-1 .img-fill {
+		  padding: 50px;
+		  position: relative;
+	  }
+  }
+  
+  .Modern-Slider .item-2 .img-fill {
+	  background-image: url(../../../assets/images/two.jpg);
+  }
+  
+  .Modern-Slider .item-3 .img-fill {
+	  background-image: url(../../../assets/images/three.jpg);
+  }
+  
+  .Modern-Slider .NextArrow{
+	position:absolute;
+	top:50%;
+	right:30px;
+	border:0 none;
+	background-color: transparent;
+	text-align:center;
+	font-size: 36px;
+	font-family: 'FontAwesome';
+	color:#FFF;
+	z-index:5;
+	outline: none;
+	cursor: pointer;
+  }
+  
+  .Modern-Slider .NextArrow:before{
+	content:'\f105';
+  }
+  
+  .Modern-Slider .PrevArrow {
+	position:absolute;
+	top:50%;
+	left:30px;
+	border:0 none;
+	background-color: transparent;
+	text-align:center;
+	font-size: 36px;
+	font-family: 'FontAwesome';
+	color:#FFF;
+	z-index:5;
+	outline: none;
+	cursor: pointer;
+  }
+  
+  .Modern-Slider .PrevArrow:before{
+	content:'\f104';
+  }
+  
+  ul.slick-dots {
+	display: none!important;
+  }
+  
+  .Modern-Slider .text-content {
+	  text-align: left;
+		width: 75%;
+		position: absolute;
+		top: 50%;
+		left: 70%;
+		transform: translate(-50%, -50%);
+  }
+  
+  /* MEDIA QUERY */
+  @media screen and (max-width:720px){
+	  .Modern-Slider .text-content {
+		  text-align: left;
+			width: 75%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+	  }
+  }
+  
+  .Modern-Slider .item h6 {
+	margin-bottom: 15px;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color:aqua;
+	animation:fadeOutRight 1s both;
+  }
+  
+  .Modern-Slider .item h4 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 44px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	color:#FFF;
+	overflow:hidden;
+	animation:fadeOutLeft 1s both;
+  }
+  
+  .Modern-Slider .item p {
+	  max-width: 570px;
+	  color: #fff;
+	  font-size: 15px;
+	  font-weight: 400;
+	  line-height: 30px;
+	  margin-bottom: 40px;
+  }
+  
+  .Modern-Slider .item a {
+	margin: 0 5px;
+  }
+  
+  .Modern-Slider .item.slick-active h6{
+	animation:fadeInDown 1s both 1s;
+  }
+  
+  .Modern-Slider .item.slick-active h4{
+	animation:fadeInLeft 1s both 1.5s;
+  }
+  
+  .Modern-Slider .item.slick-active{
+	animation:Slick-FastSwipeIn 1s both;
+  }
+  
+  .Modern-Slider .buttons {
+	position: relative;
+  }
+  
+  .Modern-Slider {background:#000;}
+  
